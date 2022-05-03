@@ -43,7 +43,4 @@ public class UserController {
         return jwtTokenProvider.createToken(member.getUsername(), member.getRoles());
     }
 
-    public void test(){
-
-    }
 }
